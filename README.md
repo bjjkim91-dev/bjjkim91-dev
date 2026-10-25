@@ -18,14 +18,6 @@ Compliance teams spend 20 to 40 hours per assessment reading a regulation, writi
 
 ▶️ [Watch the full 5-minute demo on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7441666828239593472/)
 
-![Upload one document per role](https://raw.githubusercontent.com/bjjkim91-dev/risk-governance-agent/main/docs/images/01-upload.png)
-
-![Phase 1: risk register with source quotes, severity and category](https://raw.githubusercontent.com/bjjkim91-dev/risk-governance-agent/main/docs/images/02-phase1-risks.png)
-
-![Phase 2: risk to control matrix](https://raw.githubusercontent.com/bjjkim91-dev/risk-governance-agent/main/docs/images/03-phase2-controls.png)
-
-![Summary and verdict with coverage counts and export](https://raw.githubusercontent.com/bjjkim91-dev/risk-governance-agent/main/docs/images/05-summary-verdict.png)
-
 ### [POS Scan](https://github.com/bjjkim91-dev/pos-cleanscan)
 
 Messy retailer point-of-sale strings turned into clean product attributes. Rules and fuzzy matching first, a LoRA-tuned Llama for the final call.
