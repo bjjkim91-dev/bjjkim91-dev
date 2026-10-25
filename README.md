@@ -2,7 +2,7 @@
 
 I work as a Senior Data Engineer. Waterloo Engineering grad, with a master's in AI from Queen's.
 
-I've spent 10+ years in data reporting and analytics engineering. These days I'm on an AI Enablement team, building the structure and foundation for AI-native development and workflows that run on AI.
+I've spent 10+ years in data reporting and analytics engineering. These days I'm on an AI Enablement team, building the structure and foundation for AI-native development and AI-driven workflows.
 
 Below are the personal and academic projects I've worked on.
 
