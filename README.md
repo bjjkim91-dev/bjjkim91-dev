@@ -1,8 +1,8 @@
 # Welcome to my GitHub 👋
 
-I work as a Senior Data Engineer. Waterloo Engineering grad, with a master's in AI from Queen's.
+I'm a Senior Data Engineer with 10+ years in data analytics, reporting, data engineering and architecture. I currently work on an AI Enablement team, building the structure and foundation for AI-native development and agentic workflows across engineering teams.
 
-I've spent 10+ years in data reporting and analytics engineering. These days I'm on an AI Enablement team, building the structure and foundation for AI-native development and AI-driven workflows.
+Waterloo Engineering grad, with a master's in AI from Queen's.
 
 Below are the personal and academic projects I've worked on.
 
