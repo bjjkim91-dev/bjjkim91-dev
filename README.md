@@ -1,6 +1,6 @@
 # Welcome to my GitHub 👋
 
-I'm a Senior Data Engineer with 10+ years in data analytics, reporting, data engineering and architecture. I currently work on an AI Enablement team, building the structure and foundation for AI-native development and agentic workflows across engineering teams.
+I'm a Senior Data Engineer with 10+ years in data analytics, reporting and architecture. I'm currently part of an AI Enablement team, building the structure and foundation for AI-native development and agentic workflows across engineering teams.
 
 Waterloo Engineering grad, with a master's in AI from Queen's.
 
