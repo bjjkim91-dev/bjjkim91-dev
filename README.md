@@ -2,7 +2,7 @@
 
 I'm a Senior Data Engineer with 10+ years in data analytics, reporting and architecture. I'm currently part of an AI Enablement team, building the structure and foundation for AI-native development and agentic workflows across engineering teams.
 
-Waterloo Engineering grad, with a master's in AI from Queen's.
+Management Engineering undergrad at the University of Waterloo, and a Master of Management in Artificial Intelligence from Queen's University.
 
 Below are the personal and academic projects I've worked on.
 
