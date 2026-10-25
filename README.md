@@ -1,6 +1,6 @@
 # Welcome to my GitHub 👋
 
-I'm a Senior Data Engineer with over ten years in data analytics, reporting and architecture. I studied Management Engineering at the University of Waterloo and later completed a Master of Management in Artificial Intelligence at Queen's University, which is where my work shifted toward applied AI. I'm currently part of an AI Enablement team, where I build the structure and foundation for AI-native development and agentic workflows across engineering teams.
+I'm a Senior Data Engineer with over 20 years of experience in data analytics, reporting and architecture. I studied Management Engineering at the University of Waterloo and later completed a Master of Management in Artificial Intelligence at Queen's University, which is where my work shifted toward applied AI. Along the way I earned a Certificate in Machine Learning from York University, and I'm currently studying for the PMI Certified Professional in Managing AI (PMI-CPMAI), a certification in AI project management. I'm currently part of an AI Enablement team, where I build the structure and foundation for AI-native development and agentic workflows across engineering teams.
 
 Below are the personal and academic projects I've worked on.
 
