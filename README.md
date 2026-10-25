@@ -1,8 +1,6 @@
 # Welcome to my GitHub 👋
 
-I'm a Senior Data Engineer with 10+ years in data analytics, reporting and architecture. I'm currently part of an AI Enablement team, building the structure and foundation for AI-native development and agentic workflows across engineering teams.
-
-Management Engineering undergrad at the University of Waterloo, and a Master of Management in Artificial Intelligence from Queen's University.
+I'm a Senior Data Engineer with over ten years in data analytics, reporting and architecture. I studied Management Engineering at the University of Waterloo and later completed a Master of Management in Artificial Intelligence at Queen's University, which is where my work shifted toward applied AI. I'm currently part of an AI Enablement team, where I build the structure and foundation for AI-native development and agentic workflows across engineering teams.
 
 Below are the personal and academic projects I've worked on.
 
