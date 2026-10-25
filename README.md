@@ -10,11 +10,13 @@ Below are the personal and academic projects I've worked on.
 
 ## 🎓 Academic
 
-### [SLM Risk Governance Agent](https://github.com/bjjkim91-dev/risk-governance-agent)
+### [SLM Risk Governance Agent](https://github.com/bjjkim91-dev/slm-risk-governance-agent)
+
+📁 Repo: [bjjkim91-dev/slm-risk-governance-agent](https://github.com/bjjkim91-dev/slm-risk-governance-agent)
 
 Compliance teams spend 20 to 40 hours per assessment reading a regulation, writing risk statements, matching them to controls and then to process steps, and the result still differs from one analyst to the next. This agent does the first draft of all three steps. You upload a regulation, a control inventory and a process narrative. It proposes a MECE risk register in the COSO shape with the source clause quoted on every row, maps the approved risks to controls, then places those controls on the process steps, and you approve, reject or edit each phase before the next one runs. Everything runs locally through Ollama on a Qwen2.5-7B fine-tuned per phase with QLoRA, so no document leaves the machine. It ends with coverage counts, unmapped risks flagged, and an Excel or PDF export.
 
-![Demo: approving the phase 3 governance map and reaching the summary verdict](https://raw.githubusercontent.com/bjjkim91-dev/risk-governance-agent/main/docs/images/demo.gif)
+![Demo: approving the phase 3 governance map and reaching the summary verdict](https://raw.githubusercontent.com/bjjkim91-dev/slm-risk-governance-agent/main/docs/images/demo.gif)
 
 ▶️ [Watch the full 5-minute demo on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7441666828239593472/)
 
