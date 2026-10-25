@@ -16,6 +16,8 @@ Compliance teams spend 20 to 40 hours per assessment reading a regulation, writi
 
 ![Demo: approving the phase 3 governance map and reaching the summary verdict](https://raw.githubusercontent.com/bjjkim91-dev/risk-governance-agent/main/docs/images/demo.gif)
 
+▶️ [Watch the full 5-minute demo on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7441666828239593472/)
+
 ![Upload one document per role](https://raw.githubusercontent.com/bjjkim91-dev/risk-governance-agent/main/docs/images/01-upload.png)
 
 ![Phase 1: risk register with source quotes, severity and category](https://raw.githubusercontent.com/bjjkim91-dev/risk-governance-agent/main/docs/images/02-phase1-risks.png)
