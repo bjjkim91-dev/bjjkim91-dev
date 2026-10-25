@@ -10,11 +10,19 @@ Below are the personal and academic projects I've worked on.
 
 ## 🎓 Academic
 
-### [SLM Risk Governance](https://github.com/bjjkim91-dev/risk-governance-agent)
+### [SLM Risk Governance Agent](https://github.com/bjjkim91-dev/risk-governance-agent)
 
-Regulation in, governance register out. A small language model fine-tuned per phase, running locally, with a human approving every row.
+Compliance teams spend 20 to 40 hours per assessment reading a regulation, writing risk statements, matching them to controls and then to process steps, and the result still differs from one analyst to the next. This agent does the first draft of all three steps. You upload a regulation, a control inventory and a process narrative. It proposes a MECE risk register in the COSO shape with the source clause quoted on every row, maps the approved risks to controls, then places those controls on the process steps, and you approve, reject or edit each phase before the next one runs. Everything runs locally through Ollama on a Qwen2.5-7B fine-tuned per phase with QLoRA, so no document leaves the machine. It ends with coverage counts, unmapped risks flagged, and an Excel or PDF export.
 
-![Risk Governance Agent](https://raw.githubusercontent.com/bjjkim91-dev/risk-governance-agent/main/docs/images/04-phase3-governance-map.png)
+![Demo: approving the phase 3 governance map and reaching the summary verdict](https://raw.githubusercontent.com/bjjkim91-dev/risk-governance-agent/main/docs/images/demo.gif)
+
+![Upload one document per role](https://raw.githubusercontent.com/bjjkim91-dev/risk-governance-agent/main/docs/images/01-upload.png)
+
+![Phase 1: risk register with source quotes, severity and category](https://raw.githubusercontent.com/bjjkim91-dev/risk-governance-agent/main/docs/images/02-phase1-risks.png)
+
+![Phase 2: risk to control matrix](https://raw.githubusercontent.com/bjjkim91-dev/risk-governance-agent/main/docs/images/03-phase2-controls.png)
+
+![Summary and verdict with coverage counts and export](https://raw.githubusercontent.com/bjjkim91-dev/risk-governance-agent/main/docs/images/05-summary-verdict.png)
 
 ### [POS Scan](https://github.com/bjjkim91-dev/pos-cleanscan)
 
