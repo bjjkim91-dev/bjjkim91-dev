@@ -14,7 +14,19 @@ Below are the personal and academic projects I've worked on.
 
 📁 Repo: [bjjkim91-dev/slm-risk-governance-agent](https://github.com/bjjkim91-dev/slm-risk-governance-agent)
 
-Compliance teams spend 20 to 40 hours per assessment reading a regulation, writing risk statements, matching them to controls and then to process steps, and the result still differs from one analyst to the next. This agent does the first draft of all three steps. You upload a regulation, a control inventory and a process narrative. It proposes a MECE risk register in the COSO shape with the source clause quoted on every row, maps the approved risks to controls, then places those controls on the process steps, and you approve, reject or edit each phase before the next one runs. Everything runs locally through Ollama on a Qwen2.5-7B fine-tuned per phase with QLoRA, so no document leaves the machine. It ends with coverage counts, unmapped risks flagged, and an Excel or PDF export.
+A compliance agent that turns a regulation into a governance register, with a human approving every step.
+
+**The problem.** Compliance teams spend 20 to 40 hours per assessment reading a regulation, writing risk statements, matching them to controls and then to process steps, and the result still differs from one analyst to the next.
+
+**What it does.** You upload a regulation, a control inventory and a process narrative. The agent drafts all three steps:
+
+1. Regulation to risks: a MECE risk register in the COSO shape, with the source clause quoted on every row.
+2. Risks to controls: each approved risk mapped to the controls that mitigate it.
+3. Controls to process steps: each control placed on the process narrative.
+
+You approve, reject or edit each phase before the next one runs. It ends with coverage counts, unmapped risks flagged, and an Excel or PDF export.
+
+**How it runs.** Everything is local through Ollama on a Qwen2.5-7B fine-tuned per phase with QLoRA, so no document leaves the machine.
 
 ![Demo: approving the phase 3 governance map and reaching the summary verdict](https://raw.githubusercontent.com/bjjkim91-dev/slm-risk-governance-agent/main/docs/images/demo.gif)
 
@@ -24,7 +36,15 @@ Compliance teams spend 20 to 40 hours per assessment reading a regulation, writi
 
 📁 Repo: [bjjkim91-dev/pos-cleanscan](https://github.com/bjjkim91-dev/pos-cleanscan)
 
-Capstone project with Coca-Cola Canada. Retailers send Coca-Cola their point-of-sale data, and every retailer writes the same product differently: NUKA COLA QUANTUM 12X355ML CANS, NUKA QNTM 12PK, NC QUANTUM ZERO SGR 355ML X12. We built CleanScan, a machine learning pipeline that parses those raw strings into ten clean, structured fields, brand, flavour, category, sub-brand, calorie tier, pack, size, count, product name and product group, ready for storage and analytics. Rules and fuzzy dictionary matching settle the easy fields first, then a language model makes the final call on every field. We tried OpenAI's hosted model first, then fine-tuned a small local model, a Llama 3.2 3B with LoRA on Coca-Cola's own labelled history, and it met the required performance while running for free on a desktop GPU, with no API cost and no data leaving the machine. On a blind holdout of 1,023 real rows it reached 79% macro accuracy across nine attributes, with brand at 88%, pack count at 90% and product name at 82%.
+Capstone project with Coca-Cola Canada: a machine learning pipeline that turns raw retailer point-of-sale strings into clean, structured product data for storage and analytics.
+
+**The problem.** Retailers send Coca-Cola their point-of-sale data, and every retailer writes the same product differently: `NUKA COLA QUANTUM 12X355ML CANS`, `NUKA QNTM 12PK`, `NC QUANTUM ZERO SGR 355ML X12`. One product, three strings, no shared key.
+
+**What it does.** CleanScan parses each raw line into ten fields, brand, flavour, category, sub-brand, calorie tier, pack, size, count, product name and product group, each one locked to a dictionary of valid values. Rules and fuzzy dictionary matching settle the easy fields first, then a language model makes the final call on every field.
+
+**The model.** We tried OpenAI's hosted model first, then fine-tuned a small local model, a Llama 3.2 3B with LoRA on Coca-Cola's own labelled history. It met the required performance while running for free on a desktop GPU, with no API cost and no data leaving the machine.
+
+**The result.** On a blind holdout of 1,023 real rows: 79% macro accuracy across nine attributes, with brand at 88%, pack count at 90% and product name at 82%.
 
 Coca-Cola's data stays private, so the sample rows here are fictional: Nuka-Cola, Slurm and Brawndo. The pipeline, the trained adapter, the training scripts and the fifteen-slide walkthrough are the real ones.
 
