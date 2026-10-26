@@ -32,7 +32,7 @@ You approve, reject or edit each phase before the next one runs. It ends with co
 
 ▶️ [Watch the full 5-minute demo on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7441666828239593472/)
 
-### [POS CleanScan](https://github.com/bjjkim91-dev/pos-cleanscan)
+### [Coca-Cola POS CleanScan](https://github.com/bjjkim91-dev/pos-cleanscan)
 
 📁 Repo: [bjjkim91-dev/pos-cleanscan](https://github.com/bjjkim91-dev/pos-cleanscan)
 
