@@ -76,19 +76,17 @@ The management system behind Grove: skills, worklog and engineering guidance so 
 
 ## 🎮 Games
 
-### [FM26 Backroom](https://github.com/bjjkim91-dev/fm26-backroom)
+### Football Manager 26: assistant coach and DB viewer
 
-📁 Repo: [bjjkim91-dev/fm26-backroom](https://github.com/bjjkim91-dev/fm26-backroom)
+📁 Repos: [bjjkim91-dev/fm26-assistant](https://github.com/bjjkim91-dev/fm26-assistant) · [bjjkim91-dev/fm26-db-viewer](https://github.com/bjjkim91-dev/fm26-db-viewer)
 
-A backroom staff for Football Manager 26, in two parts.
+**The assistant coach** is a Claude Code skill built as a trained one rather than a chat persona: a fixed body of FM26 knowledge it must use, with the only valid role names and the tactic options as the game spells them; live squad data it must read before every session; a verdict-first response framework; and files it writes its decisions to, so the next session continues the last. The repo is the skill and an empty file structure, ready for a new save.
 
-**The viewer and editor.** Attaches to the running game and reads its database straight from memory, decoded from the game's own type information with no published offsets: 38,000 people and 19,000 clubs in five seconds. Every field named, searchable and filterable, and editable with verified writes, a journal and undo.
+![How the coach is built: brain, live data, outputs, and the six steps of a session](https://raw.githubusercontent.com/bjjkim91-dev/fm26-assistant/main/docs/images/coach-skill.png)
 
-**The assistant coach.** A Claude Code skill trained for the save: a fixed body of FM26 knowledge it must use, live squad data it reads from the viewer before every session, a verdict-first response framework, and files it writes its decisions to, so the next session continues the last.
+**The DB viewer and editor** feeds it. It attaches to the running game and reads its database straight from memory, decoded from the game's own type information with no published offsets: 38,000 people and 19,000 clubs in five seconds, every field named, searchable and filterable, editable with verified writes, a journal and undo.
 
-![Squad view, search, profile, clubs, reference and edit journal](https://raw.githubusercontent.com/bjjkim91-dev/fm26-backroom/main/docs/images/walkthrough.gif)
-
-![How the coach is built: brain, live data, outputs, and the six steps of a session](https://raw.githubusercontent.com/bjjkim91-dev/fm26-backroom/main/docs/images/coach-skill.png)
+![Squad view, search, profile, clubs, reference and edit journal](https://raw.githubusercontent.com/bjjkim91-dev/fm26-db-viewer/main/docs/images/walkthrough.gif)
 
 ### [Fallen Empire](https://github.com/bjjkim91-dev/fallen-empire)
 
