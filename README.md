@@ -56,9 +56,11 @@ Coca-Cola's data stays private, so the sample rows here are fictional: Nuka-Cola
 
 ### [Spaceship Titanic, class tournament](https://github.com/bjjkim91-dev/spaceship-titanic-tournament)
 
-An in-class machine learning tournament on Kaggle's Spaceship Titanic problem; this entry took first place. SQL cleaning, a last-name feature that turned out to matter, seven models, Optuna tuning and a stacked ensemble, all in one script.
+📁 Repo: [bjjkim91-dev/spaceship-titanic-tournament](https://github.com/bjjkim91-dev/spaceship-titanic-tournament)
 
-![Seven models, two feature sets, three ensembles](https://raw.githubusercontent.com/bjjkim91-dev/spaceship-titanic-tournament/main/docs/images/model-comparison.png)
+First place in an in-class machine learning tournament on Kaggle's Spaceship Titanic problem. Seven classifiers trained on the same features and compared with 5-fold cross-validation, the gradient-boosted ones tuned with Optuna, and the top three combined as a soft vote, a hard vote and a stacked ensemble. The stacked ensemble won.
+
+![Every model and ensemble, ranked](https://raw.githubusercontent.com/bjjkim91-dev/spaceship-titanic-tournament/main/docs/images/model-ranking.png)
 
 ## 🏦 Banking Personalization App
 
