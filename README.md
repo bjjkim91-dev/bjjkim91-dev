@@ -46,7 +46,7 @@ Capstone project with Coca-Cola Canada: a machine learning pipeline that turns r
 
 **The result.** On a blind holdout of 1,023 real rows: 79% macro accuracy across nine attributes, with brand at 88%, pack count at 90% and product name at 82%.
 
-Coca-Cola's data stays private, so the sample rows here are fictional: Nuka-Cola, Slurm and Brawndo. The pipeline, the trained adapter, the training scripts and the fifteen-slide walkthrough are the real ones.
+Coca-Cola's data stays private, so the sample rows here are fictional: Nuka-Cola, Slurm and Brawndo. The pipeline, the trained adapter, the training scripts and the slides are the real ones.
 
 ![One product, three retailer strings, one clean record](https://raw.githubusercontent.com/bjjkim91-dev/pos-cleanscan/main/docs/images/hero-before-after.png)
 
