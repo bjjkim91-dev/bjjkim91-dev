@@ -76,14 +76,19 @@ The management system behind Grove: skills, worklog and engineering guidance so 
 
 ## 🎮 Games
 
-### [FM Manager Assistant](https://github.com/bjjkim91-dev/fm26-db-viewer)
+### [FM26 Backroom](https://github.com/bjjkim91-dev/fm26-backroom)
 
-For Football Manager 26.
+📁 Repo: [bjjkim91-dev/fm26-backroom](https://github.com/bjjkim91-dev/fm26-backroom)
 
-- Game assistant: a Korean assistant-coach persona that reads the live game.
-- DB viewer and editor: the game's database decoded live, filterable, with verified edits and undo.
+A backroom staff for Football Manager 26, in two parts.
 
-![FM Manager Assistant](https://raw.githubusercontent.com/bjjkim91-dev/fm26-db-viewer/main/docs/images/03-profile.png)
+**The viewer and editor.** Attaches to the running game and reads its database straight from memory, decoded from the game's own type information with no published offsets: 38,000 people and 19,000 clubs in five seconds. Every field named, searchable and filterable, and editable with verified writes, a journal and undo.
+
+**The assistant coach.** A Claude Code skill trained for the save: a fixed body of FM26 knowledge it must use, live squad data it reads from the viewer before every session, a verdict-first response framework, and files it writes its decisions to, so the next session continues the last.
+
+![Squad view, search, profile, clubs, reference and edit journal](https://raw.githubusercontent.com/bjjkim91-dev/fm26-backroom/main/docs/images/walkthrough.gif)
+
+![How the coach is built: brain, live data, outputs, and the six steps of a session](https://raw.githubusercontent.com/bjjkim91-dev/fm26-backroom/main/docs/images/coach-skill.png)
 
 ### [Fallen Empire](https://github.com/bjjkim91-dev/fallen-empire)
 
