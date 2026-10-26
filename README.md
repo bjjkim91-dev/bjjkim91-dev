@@ -56,7 +56,7 @@ Coca-Cola's data stays private, so the sample rows here are fictional: Nuka-Cola
 
 ### [Spaceship Titanic, class tournament](https://github.com/bjjkim91-dev/spaceship-titanic-tournament)
 
-A fun little one. An in-class machine learning tournament on Kaggle's Spaceship Titanic problem, and this entry took first place. SQL cleaning, a last-name feature that turned out to matter, seven models, Optuna tuning and a stacked ensemble, all in one script.
+An in-class machine learning tournament on Kaggle's Spaceship Titanic problem; this entry took first place. SQL cleaning, a last-name feature that turned out to matter, seven models, Optuna tuning and a stacked ensemble, all in one script.
 
 ![Seven models, two feature sets, three ensembles](https://raw.githubusercontent.com/bjjkim91-dev/spaceship-titanic-tournament/main/docs/images/model-comparison.png)
 
