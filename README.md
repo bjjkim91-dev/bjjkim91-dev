@@ -24,9 +24,11 @@ Compliance teams spend 20 to 40 hours per assessment reading a regulation, writi
 
 📁 Repo: [bjjkim91-dev/pos-cleanscan](https://github.com/bjjkim91-dev/pos-cleanscan)
 
-A beverage company buys sales data from many retailers, and every retailer writes the same can of pop differently: COCA COLA ZERO SUGAR 12X355ML CANS, COKE ZERO 12PK, CC ZERO SGR 355ML X12. Before anyone can count anything, each string has to be matched to the company's own master data, and people were doing that by hand. CleanScan turns every raw line into ten clean fields, brand, flavour, category, sub-brand, calorie tier, pack, size, count, product name and product group, each one locked to a dictionary of valid values. Rules go first and settle the easy cases like 12X355ML. Fuzzy matching proposes candidates for the rest. A Llama 3.2 3B fine-tuned with LoRA on the company's own labelled history makes the final call on every field, running locally on a desktop GPU, and scored 85% exact match on a real held-out set. The repo carries the pipeline, a reduced rule set and ten invented rows. The real data and the weights stay private.
+A beverage company buys sales data from many retailers, and every retailer writes the same can of pop differently: NUKA COLA QUANTUM 12X355ML CANS, NUKA QNTM 12PK, NC QUANTUM ZERO SGR 355ML X12. Before anyone can count anything, each string has to be matched to the company's own master data, and people were doing that by hand. CleanScan turns every raw line into ten clean fields, brand, flavour, category, sub-brand, calorie tier, pack, size, count, product name and product group, each one locked to a dictionary of valid values. Rules go first and settle the easy cases like 12X355ML. Fuzzy matching proposes candidates for the rest, misspellings included. A Llama 3.2 3B fine-tuned with LoRA on the company's own labelled history makes the final call on every field, running locally on a desktop GPU, and scored 85% exact match on a real held-out set. The real data can't be shown, so the sample is a small joke: Nuka-Cola, Slurm and Brawndo, as sold by Super-Duper Mart and Kwik-E-Mart. The pipeline is the real one.
 
 ![One product, three retailer strings, one clean record](https://raw.githubusercontent.com/bjjkim91-dev/pos-cleanscan/main/docs/images/hero-before-after.png)
+
+![Ten rows in, ten clean records out](https://raw.githubusercontent.com/bjjkim91-dev/pos-cleanscan/main/docs/images/ten-rows.png)
 
 ![One row traced through all six stages](https://raw.githubusercontent.com/bjjkim91-dev/pos-cleanscan/main/docs/images/row-trace.png)
 
