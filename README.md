@@ -58,9 +58,9 @@ Coca-Cola's data stays private, so the sample rows here are fictional: Nuka-Cola
 
 📁 Repo: [bjjkim91-dev/spaceship-titanic-tournament](https://github.com/bjjkim91-dev/spaceship-titanic-tournament)
 
-First place in an in-class machine learning tournament on Kaggle's Spaceship Titanic problem. Seven classifiers trained on the same features and compared with 5-fold cross-validation, the gradient-boosted ones tuned with Optuna, and the top three combined as a soft vote, a hard vote and a stacked ensemble. The stacked ensemble won.
+First place in an in-class machine learning tournament on Kaggle's Spaceship Titanic problem, final Kaggle score 0.81529. Eleven classifiers screened, the gradient-boosted ones tuned with Optuna on an objective that rewards stable folds, and four of them combined in a majority vote: two tuned CatBoosts and two LightGBMs, one with a last-name feature. A fifth CatBoost on a different feature set breaks the ties. The vote alone scored 0.81482; the tiebreaker took it to 0.81529.
 
-![Every model and ensemble, ranked](https://raw.githubusercontent.com/bjjkim91-dev/spaceship-titanic-tournament/main/docs/images/model-ranking.png)
+![Kaggle leaderboard score, best to worst](https://raw.githubusercontent.com/bjjkim91-dev/spaceship-titanic-tournament/main/docs/images/leaderboard-ranking.png)
 
 ## 🏦 Banking Personalization App
 
