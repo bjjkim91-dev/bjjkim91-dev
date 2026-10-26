@@ -54,6 +54,16 @@ Coca-Cola's data stays private, so the sample rows here are fictional: Nuka-Cola
 
 ![One row traced through all six stages](https://raw.githubusercontent.com/bjjkim91-dev/pos-cleanscan/main/docs/images/row-trace.png)
 
+### [Spaceship Titanic, class tournament](https://github.com/bjjkim91-dev/spaceship-titanic-tournament)
+
+📁 Repo: [bjjkim91-dev/spaceship-titanic-tournament](https://github.com/bjjkim91-dev/spaceship-titanic-tournament)
+
+A small one, kept for fun: first place in an in-class machine learning tournament on Kaggle's Spaceship Titanic problem, predicting which passengers were transported by a space-time anomaly.
+
+**How.** Cleaned the data in SQL first, then built the feature that mattered: families travel together and share a fate, so last names with a very high or very low transported rate became two flags. Compared seven models with 5-fold cross-validation, tuned them with Optuna using an objective that rewards stable folds, and ensembled the top three. The stacked ensemble reaches 81.8% cross-validated accuracy, and the whole thing runs from one script.
+
+![Seven models, two feature sets, three ensembles](https://raw.githubusercontent.com/bjjkim91-dev/spaceship-titanic-tournament/main/docs/images/model-comparison.png)
+
 ## 🏦 Banking Personalization App
 
 ### [Grove](https://github.com/bjjkim91-dev/grove)
